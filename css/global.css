@@ -432,8 +432,7 @@ pre {
 }
 
 .logo-container {
-  max-width: 400px;
-  min-width: 250px;
+  max-width: 50%;
 }
 
 .container {
@@ -442,8 +441,7 @@ pre {
   padding: 32px 28px;
   display: flex;
   flex-direction: column;
-  max-width: 400px;
-  min-width: 250px;
+  max-width: 50%;
 }
 
 .container .pasha-image-stack {
