@@ -94,6 +94,7 @@ h4 {
   background-repeat: no-repeat;
   max-width: 50%;
   max-height: 50%;
+  border-radius: 5%;
 }
 .sr-legal-text {
   color: var(--gray-light);
