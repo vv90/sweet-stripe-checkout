@@ -20,41 +20,24 @@
         </header>
         <div class="sr-container">
           <section class="container">
-            <h1>One-time Donation</h1>
-            <button data-sku-id="sku_GU4JYXyvvRb2sX">Donate $5.00 once</button>
-            <button data-sku-id="sku_GU4KO8nfdg8G2Z">Donate $15.00 once</button>
-            <button data-sku-id="sku_GU4LB0wBViiYsm">Donate $50.00 once</button>
-          </section>
-          <section class="container">
-            <h1>Recurring Donation</h1>
-            <button data-plan-id="plan_GU4MXg0k0Uv1S6">
-              Donate $20.00 per month
-            </button>
+            <h1>Choose Your Boost Level!</h1>
+            <button data-sku-id="sku_H1JLGcJzBgfaeT">Sweet Boost 1250</button>
+            <button data-sku-id="sku_H1JLeBBd0M8eQ4">Sweet Boost 2500</button>
+            <button data-sku-id="sku_H1JLMedDIWU4Wp">Sweet Boost 5000</button>
+            <button data-sku-id="sku_H1JK5eESFQ1Ddu">Sweet Boost 10000</button>
           </section>
         </div>
         <div id="error-message"></div>
       </div>
     </div>
-    <div class="banner">
-      <span>
-        This is a
-        <a href="https://github.com/stripe-samples"> Stripe Sample </a> on how
-        to use Stripe Checkout on GitHub Pages.
-        <a
-          href="https://github.com/stripe-samples/github-pages-stripe-checkout"
-        >
-          View code on GitHub.
-        </a>
-      </span>
-    </div>
 
     <script>
       // Replace with your own publishable key: https://dashboard.stripe.com/test/apikeys
-      var PUBLISHABLE_KEY = "pk_test_Tr8olTkdFnnJVywwhNPHwnHK00HkHV4tnP";
+      var PUBLISHABLE_KEY = "pk_test_hYedNASOHvagGZBE8SEzjpPa";
       // Replace with the domain you want your users to be redirected back to after payment
       var DOMAIN = location.href.replace(/[^/]*$/, "");
 
-      if (PUBLISHABLE_KEY === "pk_test_Tr8olTkdFnnJVywwhNPHwnHK00HkHV4tnP") {
+      if (PUBLISHABLE_KEY === "pk_test_hYedNASOHvagGZBE8SEzjpPa") {
         console.log(
           "Replace the hardcoded publishable key with your own publishable key: https://dashboard.stripe.com/test/apikeys"
         );
