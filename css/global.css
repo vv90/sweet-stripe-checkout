@@ -80,11 +80,6 @@ h4 {
 .sr-content {
   padding-left: 48px;
 }
-.logo-container {
-  padding: 32px 28px;
-  max-width: 400px;
-  min-width: 250px;
-}
 .logo {
   background-image: var(--logo-image);
   height: 100%;
@@ -479,6 +474,11 @@ pre {
 .sr-container {
   display: flex;
   flex-direction: row;
+}
+
+.logo-container {
+  max-width: 400px;
+  min-width: 250px;
 }
 
 .container {
