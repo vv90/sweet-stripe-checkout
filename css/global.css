@@ -418,8 +418,6 @@ pre {
 }
 
 .container {
-  /* border: 1px solid #e8e8e8;
-  border-radius: 6px; */
   padding: 32px 28px;
   display: flex;
   flex-direction: column;
