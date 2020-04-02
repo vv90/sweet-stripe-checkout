@@ -2,23 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Stripe Payment Page Recipe</title>
-    <meta name="description" content="A demo of Stripe Payment Intents" />
+    <title>Sweet Boost Order</title>
+    <meta name="description" content="Select your Boost level" />
 
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/global.css" />
-    <!-- Load Stripe.js on your website. -->
     <script src="https://js.stripe.com/v3/"></script>
   </head>
 
   <body>
     <div class="sr-root">
-      <div class="sr-main" style="display: flex;">
-        <!-- <header class="sr-header">
-          <div class="sr-header__logo"></div>
-        </header> -->
+      <div class="sr-main" style="display: flex; flex-direction: row;">
+        <div class="logo-container">
+          <div class="logo"></div>
+        </div>
         <div class="sr-container">
+          <section class="logo-container">
+            <div class="logo"></div>
+          </section>
           <section class="container">
             <h1>Choose Your Boost Level!</h1>
             <button data-sku-id="sku_H1KBbFIM0aj02Y">Sweet Boost 1250</button>

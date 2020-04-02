@@ -10,8 +10,8 @@
   --accent-color: #0066f0;
   --body-font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   --radius: 6px;
-  --logo-image: url("https://storage.googleapis.com/stripe-sample-images/KAVHOLM.svg");
-  --form-width: 650px;
+  --logo-image: url("https://static.assets.sweet.io/sweet-boost.png");
+  --form-width: 20%;
 }
 
 /* Base */
@@ -49,7 +49,7 @@ h4 {
   display: flex;
   flex-direction: row;
   width: 100%;
-  max-width: 980px;
+  max-width: 40%;
   padding: 48px;
   align-content: center;
   justify-content: center;
@@ -80,9 +80,14 @@ h4 {
 .sr-content {
   padding-left: 48px;
 }
-.sr-header__logo {
+.logo-container {
+  padding: 32px 28px;
+  max-width: 400px;
+  min-width: 250px;
+}
+.logo {
   background-image: var(--logo-image);
-  height: 24px;
+  height: 100%;
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
@@ -473,7 +478,9 @@ pre {
 /* Custom */
 .sr-container {
   display: flex;
+  flex-direction: row;
 }
+
 .container {
   border: 1px solid #e8e8e8;
   border-radius: 6px;
